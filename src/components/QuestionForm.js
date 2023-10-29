@@ -2,7 +2,7 @@ import React from "react";
 
 export default function QuestionForm({ quesId, question, answer }) {
   const [firstAnswer, secondAnswer, thirdAnswer, fouthAnswer] = answer;
-
+  
   return (
     <div className={"form"}>
       <form>
